@@ -1,0 +1,12 @@
+div{
+    background: url("https://i.pinimg.com/474x/3d/2d/f5/3d2df53b0c9924fe1a124353089d3eb1.jpg");
+    width: 475px;
+    height: 700px;
+}
+h1,p{
+    text-align: center;
+    color: rgb(55, 87, 88);
+}
+p{
+    font-size: 20px;
+}

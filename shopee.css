@@ -1,0 +1,92 @@
+.container{
+    width: max-content;
+    height: max-content;
+}
+.register{
+    width: 1350px;
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#signin,#login,#logout{
+    width: 150px;
+    height: 50px;
+    margin-right: 50px;
+    border-color: orangered;
+    color: orangered;
+    font-size: 20px;
+    background-color: white;
+}
+.hidden{
+    display: none;
+}
+#user{
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+}
+.body{
+    width: 1350px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+}
+#product{
+    width: 1000px;
+    height: max-content;
+    background-color: chocolate;
+}
+.choice{
+    width: 1000px;
+    height: max-content;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#cart{
+    width: 350px;
+    height: max-content;
+    background-color: coral;
+}
+#alert{
+    width: 350px;
+    height: max-content;
+    background-color: coral;
+}
+.tcudorp{
+    width: 180px;
+    height: 240px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width: 180px;
+    height: 180px;
+    background-color: lightcyan;
+}
+.intro{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: lightsalmon;
+}
+.elem{
+    width: 120px;
+    height: 60px;
+}
+.name{
+    width: 120px;
+    height: 30px;
+}
+.rate{
+    width: 120px;
+    height: 30px;
+}
+.cart{
+    width: 60px;
+    height: 60px;
+}

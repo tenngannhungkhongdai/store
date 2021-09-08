@@ -1,0 +1,39 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.half{
+    width: 50vw;
+    height: 100vh;
+}
+.quarter{
+    width: 50vw;
+    height: 50vh;
+}
+#evenNumber{
+    width: 100px;
+    height: 20px;
+}
+#evenNumber:hover{
+    background: red
+}
+#triangle:hover{
+    background: blue
+}
+.timer{
+    width: 50vw;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    font-size: 180px;
+    color: white;
+}

@@ -1,0 +1,40 @@
+
+.contain{
+    width: 98vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMDEjCrtj-Z2zrj9RBI3YxgL_zAFBUrIdnbw&usqp=CAU');
+    background-size: cover;
+}
+.conta{
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 30vw;
+    height: max-content+1vh;
+}
+input{
+    width: 25vw;
+}
+.con{
+    padding-top: 2vh;
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c{
+    width: 10vw;
+    height: 10vh;
+}
+.con input:hover{
+    background: aqua;
+    transform: scale(1.1);
+}
+.con input:active{
+    background: red;
+}
+@keyframes bb{
+    
+}

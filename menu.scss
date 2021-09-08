@@ -1,0 +1,13 @@
+@mixin flex($direct,$a,$b){
+    display: flex;
+    flex-direction: $direct;
+    justify-content: $a;
+    align-items: $b;
+}
+$color: #123456;
+.container{
+    width: 98vw;
+    height: 98vh;
+    background-color: $color;
+    @include flex(column, center, center);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WORD MANAGER</title>
+        <link rel="stylesheet" href="newword.css">
+    </head>
+    <!--  Đây là chương trình e tạo ra để lưu từ mới tiếng anh  -->
+    <!--  Nhưng vì nó có mọi thứ đề bài yêu cầu nên why not :>  -->
+    <body>
+        <div class="container">
+            <div class="contain">
+                <h1>Word manager</h1>
+                <div class="conta">
+                    <d>new word:</d><br><input style="width: 300px;" id="word"><br>
+                    <d>spelling:</d><br><input style="width: 300px;" id="spell"><br>
+                    <d>meaning:</d><br><input style="width: 300px;" id="mean"><br>
+                    <d>case of using:</d><br><input style="width: 300px;" id="use"><br>
+                    <d>phrase:</d><br><input style="width: 300px;" id="phrase"><br>
+                    <d>note:</d><br><input style="width: 300px;" id="note" placeholder="if have"></input>
+                </div>
+                <button id="addword">add word</button>
+                <button id="update" class="hidden" onclick="change(); back(); clearinput()">update word</button>
+                <button id="cancel" class="hidden" onclick="clearinput(); back()">cancel</button>
+                <button onclick="clear()">clear</button><!--  The what I'll never use(I think at least)  -->
+            </div>
+            <div class="cargo">
+                <h1>Word list</h1>
+                <table border="1" id="listword">     <!--  make sure to have item 'word' as array in local storage   -->
+                    <tr>
+                        <th class="word">Word</th>
+                        <th class="spell">Spelling</th>
+                        <th class="mean">Meaning</th>
+                        <th class="use">Case of using</th>
+                        <th class="phrase">Phrase</th>
+                        <th class="note">Note</th>
+                        <th class="action">Action</th>
+                    </tr>
+                </table>
+            </div>
+        </div> 
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"
+      ></script>
+        <script src="newword.js"></script>
+    </body>
+    <!--  Em biết em lười đừng nói nữa :((  -->
+</html>

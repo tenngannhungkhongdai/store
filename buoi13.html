@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="buoi13.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- https://code.jquery.com/jquery-3.1.1.min.js -->
+            <div class="half">
+                <div class="quarter">
+                    <input type="number" id="so"><br>
+                    <button id="evenNumber">from 4 to 20</button>
+                    <p id="result"></p>
+                </div>
+                <div class="quarter" id="change" onmouseover="color()" onmouseleave="white()"></div>
+            </div>
+            <div class="half">
+                <div class="quarter">
+                    <input type="number" id="loop">
+                    <button id="triangle">number 1 triangle</button>
+                    <p id="numberOne"></p>
+                </div>
+                <div class="quarter" id="time">
+                    <div class="timer">
+                        <div class="item" id="gio"></div>
+                        <d style="font-size: 200px; color: white;">:</d>
+                        <div class="item" id="phut"></div>
+                        <d style="font-size: 200px; color: white;">:</d>
+                        <div class="item" id="giay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="buoi13.js"></script>
+    </body>
+</html>

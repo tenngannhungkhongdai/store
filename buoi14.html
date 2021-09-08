@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="buoi14.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Task manager</h1>
+            <div class="contain">
+                <d>new task:</d><input style="width: 300px;" id="task"><br>
+                <d>time:</d>&emsp;&ensp;&nbsp;<input style="width: 300px;" id="time"><br>
+                <d>status:</d>&emsp;<input type="radio" name="status" value="done"><d>done</d><input type="radio" name="status" value="not yet"><d>not yet</d><br>
+                <d>note:</d>&emsp;&ensp;&nbsp;<textarea style="width: 300px; height: 50px;" id="note" placeholder="if have"></textarea>
+            </div>
+            <button id="addtask">add task</button>
+        </div>
+        <div class="cargo">
+            <h1>Task list</h1>
+            <table border="1" id="listtask">
+                <tr>
+                    <th class="task">Task</th>
+                    <th class="time">Time</th>
+                    <th class="status">Status</th>
+                    <th class="note">Note</th>
+                    <th class="action">Action</th>
+                </tr>
+                <div>
+                    
+                </div>
+                <tr>
+                    <td>Hatching the dragon's eggs</td>
+                    <td>Until it's hatched</td>
+                    <td>not yet</td>
+                    <td>do it or the mother dragon will eat you</td>
+                    <td>
+                        <button>Update</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"
+      ></script>
+        <script src="buoi14.js"></script>
+    </body>
+</html>

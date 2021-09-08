@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    width: 400px;
+    height: max-content;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contain{
+    width: 400px;
+    height: max-content;
+}
+.cargo{
+    width: 1000px;
+    height: max-content;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task{
+    width: 200px;
+}
+.time{
+    width: 150px;
+}
+.status{
+    width: 100px;
+}
+.note{
+    width: 400px;
+}
+.action{
+    width: 150px;
+}
